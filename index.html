@@ -1,1 +1,20 @@
 
+<html>
+<head>
+  <title>Mi Sitio Web</title>
+</head>
+<body>
+
+  <h1>Mi Sitio Web</h1>
+
+  <p>
+    <script>
+      const queryString = window.location.search;
+      const urlParams = new URLSearchParams(queryString);
+      const param1 = urlParams.get('param1') 
+      document.write(param1)
+    </script>
+  </p>
+
+</body>
+</html>
